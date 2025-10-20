@@ -3,7 +3,7 @@ const Account = function ({ login, email } = {}) {
     this.email = email;
 };
 
-Account.prototype.getInfo = () => {
+Account.prototype.getInfo = function () {
     console.log(`Login: ${this.login}, Email: ${this.email}`);
 };
 
